@@ -2,7 +2,7 @@
 
 To get started, you should add the `ribafs/crud-generator` Composer dependency to your project:
 ```
-composer require ribafs/crud-generator-laravel-br
+composer require ribafs/crud-generator-laravel-br:*
 ```
 Once the package is installed, you should register the `Ribafs\CrudGenerator\CrudGeneratorServiceProvider` service provider. Normally, Laravel 5.5+ will register the service provider automatically.
 
