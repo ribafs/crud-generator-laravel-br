@@ -17,7 +17,7 @@ composer require ribafs/crud-generator --dev
 ```
 ## Support versions
 
-Laravel 6, 7, 8 and 9
+Laravel 5 to 9
 
 ## Documentation
 Go through to the [detailed documentation](doc#readme)
