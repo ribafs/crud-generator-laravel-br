@@ -13,7 +13,7 @@ This Generator package provides various generators like CRUD, API, Controller, M
 
 ## Installation
 ```
-composer require ribafs/crud-generator --dev
+composer require ribafs/crud-generator-laravel-br:*
 ```
 ## Support versions
 
