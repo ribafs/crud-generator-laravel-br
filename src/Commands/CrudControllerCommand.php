@@ -148,6 +148,7 @@ EOD;
 
         if ($fields) {
             $x = 0;
+
             foreach ($fieldsArray as $index => $item) {
                 $itemArray = explode('#', $item);
 
@@ -156,7 +157,6 @@ EOD;
                 }
 
                 $fieldName = trim($itemArray[0]);
-
                 $whereSnippet .= ($index == 0) ? "where('$fieldName', 'LIKE', \"%\$keyword%\")" . "\n                " : "->orWhere('$fieldName', 'LIKE', \"%\$keyword%\")" . "\n                ";
             }
 

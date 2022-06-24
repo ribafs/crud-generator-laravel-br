@@ -3,9 +3,9 @@
 @section('content')
     <div class="container">
         <div class="row">
-            @include('admin.sidebar')
+            @include('layouts.sidebar')
 
-            <div class="col-md-9">
+            <div class="col-md-12">
                 <div class="card">
                     <div class="card-header">%%crudNameCap%%</div>
                     <div class="card-body">
@@ -52,7 +52,7 @@
                                 @endforeach
                                 </tbody>
                             </table>
-                            <div class="pagination-wrapper"> {!! $%%crudName%%->appends(['search' => Request::get('search')])->render() !!} </div>
+                            {!! $%%crudName%%->withQueryString()->links('pagination::bootstrap-5custom') !!}
                         </div>
 
                     </div>

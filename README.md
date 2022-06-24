@@ -10,6 +10,8 @@ This Generator package provides various generators like CRUD, API, Controller, M
 ## This a fork from
 https://github.com/appzcoder/crud-generator
 
+Views translated to pt-BR.
+
 ## Requirements
     Laravel >= 5.3
     PHP >= 5.6.4
