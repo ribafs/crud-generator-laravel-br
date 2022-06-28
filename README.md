@@ -12,6 +12,8 @@ https://github.com/appzcoder/crud-generator
 
 Views translated to pt-BR.
 
+Criei este gerador praticamente para uso no aplicativo que estou criando para o livro sobre laravel 9. Caso encontre algum problema e queira realmente usar precisará fazer alguns ajustes.
+
 ## Requirements
     Laravel >= 5.3
     PHP >= 5.6.4
