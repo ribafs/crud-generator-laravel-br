@@ -57,7 +57,7 @@
                                 @endforeach
                                 </tbody>
                             </table>
-                            {!! $%%crudName%%->withQueryString()->links('pagination::bootstrap-5custom') !!}
+                            <div class="pagination-wrapper"> {!! $%%crudName%%->appends(['search' => Request::get('search')])->render() !!} </div>                            
                         </div>
 
                     </div>
